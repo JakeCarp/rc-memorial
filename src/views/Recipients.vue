@@ -4,4 +4,8 @@
   </div>
 </template>
 <script>
+  export default {
+    name: 'recipients',
+
+  }
 </script>
