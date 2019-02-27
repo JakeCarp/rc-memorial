@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import grantapp from './views/Grantapp.vue'
+import contact from './views/Contact.vue'
+import events from './views/Events.vue'
 
 Vue.use(Router)
 
@@ -12,14 +15,25 @@ export default new Router({
       component: Home
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: function () { 
-        return import(/* webpackChunkName: "about" */ './views/About.vue')
-      }
+      path: '/events',
+      name: 'events',
+      component: events
+    },
+    {
+      path: '/grants',
+      name: 'grants',
+      component: grantapp
+    },
+    {
+      path: '/events',
+      name: 'events',
+      component: events
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: contact
     }
+
   ]
 })
