@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import grantapp from './views/Grantapp.vue'
+import grantapp from './views/GrantApp.vue'
 import contact from './views/Contact.vue'
 import events from './views/Events.vue'
 
