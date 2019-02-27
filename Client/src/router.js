@@ -25,11 +25,6 @@ export default new Router({
       component: grantapp
     },
     {
-      path: '/events',
-      name: 'events',
-      component: events
-    },
-    {
       path: '/contact',
       name: 'contact',
       component: contact
