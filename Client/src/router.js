@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import sponsor from './views/Sponsor.vue'
 import grantapp from './views/Grantapp.vue'
 import contact from './views/Contact.vue'
 import events from './views/Events.vue'
@@ -33,6 +34,11 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       component: contact
+    },
+    {
+      path: '/sponsor',
+      name: 'sponsor',
+      component: sponsor
     }
 
   ]
