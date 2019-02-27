@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="grantapp">
     <h1> The Grant Application </h1>
   </div>
 
@@ -9,3 +9,9 @@
     name: 'grantapp'
   }
 </script>
+
+<style>
+  .grantapp {
+    color: white;
+  }
+</style>
